@@ -1,0 +1,17 @@
+live_loop :first do
+  with_fx :reverb do
+    with_fx :echo do
+      use_synth :dark_ambience
+      play 20, attack: 10, release: 25
+      sleep 10
+      play 37, attack: 10, release: 22, pan: 0.5
+      sleep 10
+      play 87, attack: 10, release: 22, amp: 0.5, pan: -0.5
+      sleep 10
+      play 5, attack: 10, release: 25, pan: 0.5
+      sleep 10
+      play 40, attack: 10, release: 25, pan: -0.5
+      sleep 10
+    end
+  end
+end

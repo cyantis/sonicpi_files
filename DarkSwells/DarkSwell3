@@ -1,0 +1,9 @@
+live_loop :third do
+  with_fx :reverb do
+    with_fx :echo do
+      use_synth :hollow
+      play 30, attack: 10, release: 15, pan: -0.5, amp: 3
+      sleep 20
+    end
+  end
+end
