@@ -1,0 +1,61 @@
+live_loop :first do
+  use_synth :beep
+  with_fx :reverb do
+    with_fx :compressor do
+      with_fx :bitcrusher do
+      play 36, attack: 8, release: 16, pan: 0.5
+      play 48, attack: 8, release: 16, pan: 0.5
+      play 33, attack: 8, release: 16, pan: 0.5
+      play 45, attack: 8, release: 16, pan: 0.5
+      play 48, attack: 8, release: 16, pan: 0.5
+      play 60, attack: 8, release: 16, pan: 0.5
+      play 51, attack: 12, release: 16, pan: 0.5
+      play 63, attack: 12, release: 16, pan: 0.5
+      play 53, attack: 12, release: 16, pan: 0.5
+      play 65, attack: 12, release: 16, pan: 0.5
+      play 56, attack: 12, release: 16, pan: 0.5
+      play 68, attack: 12, release: 16, pan: 0.5
+      sleep 15
+      end
+      play 34, attack: 6, release: 16, pan: -0.5
+      play 46, attack: 6, release: 16, pan: -0.5
+      play 41, attack: 6, release: 16, pan: -0.5
+      play 53, attack: 6, release: 16, pan: -0.5
+      play 46, attack: 6, release: 16, pan: -0.5
+      play 58, attack: 6, release: 16, pan: -0.5
+      play 50, attack: 10, release: 16, pan: -0.5
+      play 62, attack: 10, release: 16, pan: -0.5
+      play 62, attack: 10, release: 16, pan: -0.5
+      play 74, attack: 10, release: 16, pan: -0.5
+      sleep 15
+      with_fx :ixi_techno do
+        play 53, attack: 8, release: 16, pan: 0.5, amp: 0.25
+        play 65, attack: 8, release: 16, pan: 0.5, amp: 0.25
+        play 60, attack: 8, release: 16, pan: 0.5, amp: 0.25
+        play 72, attack: 8, release: 16, pan: 0.5, amp: 0.25
+        play 65, attack: 8, release: 16, pan: 0.5, amp: 0.25
+        play 77, attack: 8, release: 16, pan: 0.5, amp: 0.25
+        play 68, attack: 12, release: 16, pan: 0.5, amp: 0.25
+        play 80, attack: 12, release: 16, pan: 0.5, amp: 0.25
+        play 69, attack: 12, release: 16, pan: 0.5, amp: 0.25
+        play 81, attack: 12, release: 16, pan: 0.5, amp: 0.25
+        play 75, attack: 12, release: 16, pan: 0.5, amp: 0.25
+        play 87, attack: 12, release: 16, pan: 0.5, amp: 0.25
+        sleep 15
+      end
+      play 39, attack: 4, release: 16, pan: -0.5
+      play 51, attack: 4, release: 16, pan: -0.5
+      #play 34, attack: 4, release: 16, pan: -0.5
+      play 46, attack: 4, release: 16, pan: -0.5
+      play 51, attack: 4, release: 16, pan: -0.5
+      play 63, attack: 4, release: 16, pan: -0.5
+      play 50, attack: 8, release: 16, pan: -0.5
+      play 62, attack: 8, release: 16, pan: -0.5
+      play 53, attack: 8, release: 16, pan: -0.5
+      play 65, attack: 8, release: 16, pan: -0.5
+      play 55, attack: 8, release: 16, pan: -0.5
+      play 67, attack: 8, release: 16, pan: -0.5
+      sleep 20
+    end
+  end
+end
